@@ -69,10 +69,25 @@ img {
   font-weight: 900;
   margin-bottom: 5px;
 }
-.resume-container .left-sidebar .interest {
+/* .resume-container .left-sidebar .interest {
   font-size: 1.2em;
   font-weight: 900;
   margin-bottom: 5px;
+} */
+.resume-container .left-sidebar .interest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.resume-container .left-sidebar .interest .timeline {
+  font-weight: 700;
+  font-size: 0.9em;
+  color: #666;
+  margin: 0;
 }
 .resume-container .left-sidebar .interest-item {
   margin-bottom: 25px;
