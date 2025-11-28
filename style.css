@@ -70,14 +70,21 @@ img {
   margin-bottom: 5px;
 }
 .resume-container .left-sidebar .timeline {
-  margin: 0 0 30px;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+.resume-container .left-sidebar .education-detail {
+  font-size: 0.9em;
+  margin: 0 0 10px;
+  line-height: 1.4;
 }
 .resume-container .left-sidebar ul.skills {
   padding: 0;
   list-style-position: inside;
 }
 .resume-container .left-sidebar ul.skills li {
-  line-height: 3;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 .resume-container .main-body {
   padding: 60px 30px;
@@ -90,4 +97,47 @@ img {
   font-weight: 400;
   margin: 0;
 }
-/* Add more CSS rules from the source[citation:8] as needed for full styling */
+.resume-container .main-body .w900 {
+  font-weight: 900;
+}
+.resume-container .main-body .designation {
+  font-size: 1.5em;
+  margin: 10px 0 30px;
+  color: #444441;
+}
+.resume-container .main-body .secondary {
+  font-size: 1.8em;
+  margin: 40px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #F4F4F4;
+  color: #444441;
+}
+.resume-container .main-body .secondary i {
+  color: #444441;
+  margin-right: 10px;
+}
+.resume-container .main-body .job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0 5px;
+}
+.resume-container .main-body .job-info p {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 0;
+}
+.resume-container .main-body .job-info time {
+  font-weight: 700;
+  color: #444441;
+}
+.resume-container .main-body h3 {
+  font-size: 1.1em;
+  margin: 0 0 15px;
+  color: #666;
+  font-weight: 700;
+}
+.resume-container .main-body .job-detail {
+  line-height: 1.6;
+  margin: 0 0 30px;
+}
